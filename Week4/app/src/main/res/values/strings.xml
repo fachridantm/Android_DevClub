@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KINTAL</string>
+    <string name="app_desc">Kabar Indonesia Teraktual</string>
+    <string name="data_empty">No Data to be Shown</string>
+</resources>
