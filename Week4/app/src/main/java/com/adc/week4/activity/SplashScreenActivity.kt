@@ -1,7 +1,8 @@
-package com.adc.week4
+package com.adc.week4.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.adc.week4.R
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
