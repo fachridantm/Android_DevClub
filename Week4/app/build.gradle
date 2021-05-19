@@ -69,15 +69,6 @@ dependencies {
     //okhttp
     implementation 'com.squareup.okhttp3:okhttp:4.9.0'
 
-    //anko
-    implementation "org.jetbrains.anko:anko-commons:$anko_version"
-    implementation "org.jetbrains.anko:anko-sdk15:$anko_version"
-    implementation "org.jetbrains.anko:anko-appcompat-v7:$anko_version"
-    implementation "org.jetbrains.anko:anko-recyclerview-v7:$anko_version"
-    implementation "org.jetbrains.anko:anko-recyclerview-v7-coroutines:$anko_version"
-    implementation "org.jetbrains.anko:anko-cardview-v7:$anko_version"
-    implementation "org.jetbrains.anko:anko-sqlite:$anko_version"
-
     //chucker
     debugImplementation "com.github.chuckerteam.chucker:library:3.2.0"
     releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.2.0"

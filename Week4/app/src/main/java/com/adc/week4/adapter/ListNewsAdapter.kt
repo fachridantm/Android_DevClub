@@ -14,8 +14,7 @@ import com.adc.week4.utils.setImageUrl
 
 class ListNewsAdapter (
     val context: Context,
-    val data: MutableList<ArticlesItem> = mutableListOf(),
-    val listener: OnUserItemListener? = null
+     var data: ArrayList<ArticlesItem> = arrayListOf(),
     ) : RecyclerView.Adapter<ListNewsAdapter.ListNewsViewHolder>() {
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListNewsViewHolder {
@@ -38,14 +37,7 @@ class ListNewsAdapter (
                     ivNews.setImageUrl(context, data.urlToImage, pbNews)
                     tvTitle.text = data.title
                     tvNews.text = data.description
-                    setOnClickListener {
-                        listener?.onUserItemClicked(data)
-                    }
                 }
             }
-        }
-
-        interface OnUserItemListener {
-            fun onUserItemClicked(data: ArticlesItem)
         }
     }
