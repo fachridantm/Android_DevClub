@@ -1,5 +1,5 @@
 # Android_DevClub
-Repository HIMTI DEV Android Developer Club
+Repository for Documentations HIMTI DEV Android Developer Club
 
 ## Purpose
 Record an Android learning from Android Developer Club HIMTI DEV
